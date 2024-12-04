@@ -21,4 +21,52 @@ This repository is created to practice basic PowerShell commands and challenges.
 - `Rename-Item`
 - `Remove-Item`
 
+---
+
+## Challenge 2: Retrieving System Information
+
+### Steps Performed:
+1. **Current Date and Time**:
+   - Command: `Get-Date`
+   - Displays the system's current date and time.
+
+2. **List Running Processes**:
+   - Command: `Get-Process`
+   - Lists all running processes on the system.
+
+3. **Free Space on Drives**:
+   - Command: `Get-PSDrive`
+   - Displays drive space and calculates free space in GB.
+
+4. **List Services and Status**:
+   - Command: `Get-Service`
+   - Lists all services and their status.
+
+5. **Start and Stop Services**:
+   - `Set-Service -Name winlogbeat -StartupType Automatic`
+   - `Start-Service -Name winlogbeat`
+   - `Stop-Service -Name Spooler`
+
+6. **Active TCP Connections**:
+   - Command: `Get-NetTCPConnection -State Listen`
+   - Filters connections on port `3389`.
+
+7. **Firewall Rules**:
+   - Command: `Get-NetFirewallRule | Select-Object DisplayName`
+   - Displays firewall rules.
+
+---
+
+### Commands Used:
+- `Get-Date`
+- `Get-Process`
+- `Get-PSDrive`
+- `Get-Service`
+- `Start-Service`
+- `Stop-Service`
+- `Set-Service`
+- `Get-NetTCPConnection`
+- `Get-NetFirewallRule`
+
+---
 Use this repository to store and revisit your PowerShell challenges.
