@@ -21,8 +21,6 @@ This repository is created to practice basic PowerShell commands and challenges.
 - `Rename-Item`
 - `Remove-Item`
 
----
-
 ## Challenge 2: Retrieving System Information
 
 ### Steps Performed:
@@ -54,8 +52,6 @@ This repository is created to practice basic PowerShell commands and challenges.
 7. **Firewall Rules**:
    - Command: `Get-NetFirewallRule | Select-Object DisplayName`
    - Displays firewall rules.
-
----
 
 ### Commands Used:
 - `Get-Date`
